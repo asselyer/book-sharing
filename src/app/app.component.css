@@ -1,0 +1,54 @@
+#wrapper {
+  font-family: tahoma, geneva, sans-serif;
+	max-width: 960px;
+	margin: auto;
+
+}
+#mainpart{
+  max-width: 960px;
+  margin:auto;
+}
+section {
+    height: 100vh;
+    border-bottom: 1px outset #e88073;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#hero .profile-img {
+    width: 300px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 50px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #b1d2ec;
+}
+
+.active {
+  background-color: #014d60;
+}
+logo-img:{
+  position: top;
+}
+.hero{
+  margin:0;
+}
