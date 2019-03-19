@@ -5,7 +5,7 @@ import { LibraryComponent } from './components/library/library.component';
 import { AboutComponent } from './components/about/about.component';
 
 
-const appRoutes: Routes = [
+export const appRoutes: Routes = [
   { path: '', 
     component: HomeComponent 
   },

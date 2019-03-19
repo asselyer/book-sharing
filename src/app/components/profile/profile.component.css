@@ -1,0 +1,127 @@
+:host-context(body){
+    color:black;
+ 
+}
+.container{
+    
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: rgba(255,255,255, 0.8);
+    box-shadow: 5px 5px 4px rgb(128, 125, 125);
+    width: 50em;
+    height: 550px;
+    
+}
+.sidecont{
+
+    padding: 25px;
+    float: left;
+    width: 150px;
+    height: 200px;
+}
+.sidecont2{
+    float: left;
+    width: 70%;
+    padding-top: 20px;
+    height: auto;
+}
+.content{
+    padding: 20px;
+    float: left;
+    border-radius: 10px;
+    width: 50em;
+    height: 400px;
+}
+.btn-edit{ 
+    background: #fff;
+    padding: 5px 10px 5px 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0 auto;
+  }
+.bio-box{
+    float: left;
+    width: 56%;
+    border:1px solid #ededed;
+    padding: 13px;
+    border-radius: 4px;
+    height: 150px;
+  }
+.detail-box{
+    float: right;
+    width: 32%;
+    height: 155px;
+    border:1px solid #ededed;
+    border-radius: 4px;
+    
+}
+.detail-box .btn-edit{
+    margin-bottom: 10px;
+}
+.bio-box .heading{
+    padding: 10px 0px 10px 10px;
+}
+.bio-box .heading p{
+    margin: 0px;
+    font-weight: 600;
+    font-size: 13px;
+}
+.bio-box .heading label{
+    float: right;
+    font-size: 9px;
+    font-weight: normal;
+    border: 1px solid #ededed;
+    border-right: none;
+    padding: 2px 1px 2px 5px;
+}
+.bio-box .desc{
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+    color: #838383;
+    font-size: 13px;
+}
+.detail-box{
+    padding: 10px;
+    font-size: 13px;
+}
+.detail-box p{
+    font-weight: 600;
+    margin: 0px;
+}
+.detail-box .ul-first{
+    padding: 0px;
+    list-style: none;
+    float: left;
+}
+.detail-box .ul-second{
+    float: left;
+    list-style: none;
+    color: #767676;
+}
+
+@media (min-width: 320px) and (max-width: 640px){
+
+    .bio-box{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .detail-box{
+      width: 100%;
+      float: left;
+      padding: 0;
+    }
+    .detail-box p{
+      padding: 10px;
+      padding-bottom: 10px;
+      padding-bottom: 0;
+    }
+    .detail-box ul.ul-first{
+      padding-left: 10px;
+    }
+    .btn-edit{
+      margin: 0 auto;
+      height: 18px;
+      margin-right: 10px;
+    }
+}
